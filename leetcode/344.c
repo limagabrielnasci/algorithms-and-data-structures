@@ -9,12 +9,12 @@ int main() {
 }
 
 void reverseString(char* s, int sSize) {
-    int inicio = 0, fim = sSize - 1;
-    while (inicio < fim) {
-        char tmp = s[inicio];
-        s[inicio] = s[fim];
-        s[fim] = tmp;
-        inicio++;
-        fim--;
+    int start = 0, end = sSize - 1;
+    while (start < end) {
+        char tmp = s[start];
+        s[start] = s[end];
+        s[end] = tmp;
+        start++;
+        end--;
     }
 }
